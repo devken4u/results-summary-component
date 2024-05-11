@@ -7,7 +7,7 @@ let elements = {
 };
 
 async function getData() {
-  return fetch("results-summary-component-main/data.json")
+  return fetch("results-summary-component/data.json")
     .then((res) => res.json())
     .then((data) => data);
 }
