@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Result Summary</title>
+  </head>
+  <body>
+    <main class="main-content">
+      <div class="box-shadow">
+        <div class="result-container">
+          <div class="result-title">Your Result</div>
+          <div class="score-container">
+            <p class="score" id="score">76</p>
+            <p class="score-over">of 100</p>
+          </div>
+          <div class="percentage">
+            <p class="rating">Great</p>
+            <p class="rating-message">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <div class="summary-container">
+          <div class="summary-title">Summary</div>
+          <div class="summary-data">
+            <div class="reaction category">
+              <img
+                class="category-icon"
+                src="results-summary-component-main/assets/images/icon-reaction.svg"
+                alt=""
+              />
+              <div class="category-title">Reaction</div>
+              <div class="category-score">
+                <span class="category-score-value" id="reaction">80</span> / 100
+              </div>
+            </div>
+            <div class="memory category">
+              <img
+                class="category-icon"
+                src="results-summary-component-main/assets/images/icon-memory.svg"
+                alt=""
+              />
+              <div class="category-title">Memory</div>
+              <div class="category-score">
+                <span class="category-score-value" id="memory">80</span> / 100
+              </div>
+            </div>
+            <div class="verbal category">
+              <img
+                class="category-icon"
+                src="results-summary-component-main/assets/images/icon-verbal.svg"
+                alt=""
+              />
+              <div class="category-title">Verbal</div>
+              <div class="category-score">
+                <span class="category-score-value" id="verbal">80</span> / 100
+              </div>
+            </div>
+            <div class="visual category">
+              <img
+                class="category-icon"
+                src="results-summary-component-main/assets/images/icon-visual.svg"
+                alt=""
+              />
+              <div class="category-title">Visual</div>
+              <div class="category-score">
+                <span class="category-score-value" id="visual">80</span> / 100
+              </div>
+            </div>
+          </div>
+          <button id="continue-btn">Continue</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
