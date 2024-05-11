@@ -32,3 +32,4 @@ function totalOfResult(result) {
 }
 
 // test comment
+// test comment 2
