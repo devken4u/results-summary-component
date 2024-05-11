@@ -30,7 +30,3 @@ function totalOfResult(result) {
   });
   return Math.round(sum / result.length);
 }
-
-// test comment
-// test comment 2
-// test comment 3
